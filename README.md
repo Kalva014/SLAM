@@ -7,5 +7,5 @@ obstacles in the environment. Training sets of odometry, inertial, and range mea
 robot were used for this project.
 
 ## Set up:
-1. Open SLAM.ipynb and in the second cell where we load the data, change the file paths to the files you want to test. E.g. for final testing we use the ECE5242Proj3-test-selected folder
+1. Open SLAM.ipynb and in the second cell where we load the data, change the file paths to the files you want to test. Also side note, when putting the path, don't put the file extension .mat into the path. Cause the API takes care of that for you. (E.g. for final testing we use the ECE5242Proj3-test-selected folder)
 2. Save and run all of the cells in the SLAM.ipynb folder
